@@ -7,7 +7,10 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/demoman-logomark.svg",
+    "dark": "/images/demoman-logomark.svg"
+  },
   "navigation": {
     "pages": [
       {
@@ -34,14 +37,15 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/demoman-logomark.svg",
+    "dark": "/images/demoman-lockup-dark.svg",
+    "href": "https://demoman.io"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "mailto:support@demoman.io"
       }
     ],
     "primary": {
@@ -64,10 +68,22 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/demoman_io",
+      "github": "https://github.com/demoman-io"
     }
   },
-  "description": "Demoman is a screen recorder for your coding agent. Describe what you want to show and your agent films it in a real browser, handing you back a finished product video with cursor smoothing, zooms and framing already done."
+  "description": "Demoman is a screen recorder for your coding agent. Describe what you want to show and your agent films it in a real browser, handing you back a finished product video with cursor smoothing, zooms and framing already done.",
+  "fonts": {
+    "heading": {
+      "family": "Outfit",
+      "weight": 700
+    },
+    "body": {
+      "family": "Manrope",
+      "weight": 400
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  }
 }

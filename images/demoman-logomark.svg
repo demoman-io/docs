@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <title>Demoman</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DAF263"/>
+      <stop offset="1" stop-color="#B8D934"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <fedropshadow dx="0" dy="0.389" stdDeviation="0.389" flood-color="#2b3300" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <path d="M 7 1.5 H 16.0 A 14.5 14.5 0 0 1 16.0 30.5 H 7 A 5 5 0 0 1 2 25.5 V 6.5 A 5 5 0 0 1 7 1.5 Z" fill="url(#tile)"/>
+  <g fill="#000000" filter="url(#soft)"><g transform="matrix(0.081 0 0 0.081 -9.738 -5.875)"><g transform="translate(5.54,56.31) scale(0.96895)"><path d="M 287.20,151.99 L 345.34,125.16 A 16,16 0 0 0 345.34,96.10 L 287.20,69.27 A 16,16 0 0 0 264.50,83.80 L 264.50,137.46 A 16,16 0 0 0 287.20,151.99 Z"/></g><rect x="264" y="224" width="83" height="83" rx="16.5"/><rect x="264" y="326" width="33" height="92.5" rx="16.5"/><rect x="314" y="326" width="33" height="92.5" rx="16.5"/></g></g>
+</svg>
